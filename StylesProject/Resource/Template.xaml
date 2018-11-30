@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:StylesProject.Resource">
+
+
+    <ControlTemplate x:Key="newButton">
+        <Border BorderBrush="Orange" BorderThickness="1" CornerRadius="10" Height="30">
+            <ContentPresenter RecognizesAccessKey="True" ></ContentPresenter>
+        </Border>
+    </ControlTemplate>
+</ResourceDictionary>
